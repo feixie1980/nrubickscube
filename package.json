@@ -1,0 +1,43 @@
+{
+  "name": "nrubickscube",
+  "version": "1.0.0",
+  "description": "n by n rubik's cube",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feixie1980/nrubickscube.git"
+  },
+  "keywords": [
+    "rubick's",
+    "cube"
+  ],
+  "author": "Fei Xie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feixie1980/nrubickscube/issues"
+  },
+  "sideEffects": false,
+  "homepage": "https://github.com/feixie1980/nrubickscube#readme",
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-manifest-plugin": "^2.0.0-rc.2",
+    "webpack-merge": "^4.1.2"
+  }
+}
